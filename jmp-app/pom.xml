@@ -7,10 +7,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jmp-service-api</artifactId>
+    <artifactId>jmp-app</artifactId>
     <packaging>jar</packaging>
 
-    <name>jmp-service-api</name>
+    <name>jmp-app</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -25,22 +25,28 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.10.2</version>
-            <scope>test</scope>
+            <groupId>com.epam.jmp</groupId>
+            <artifactId>jmp-service-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>5.11.0</version>
-            <scope>test</scope>
+            <groupId>com.epam.jmp</groupId>
+            <artifactId>jmp-cloud-service-impl</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-junit-jupiter</artifactId>
-            <version>5.12.0</version>
-            <scope>test</scope>
+            <groupId>com.epam.jmp</groupId>
+            <artifactId>jmp-bank-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.epam.jmp</groupId>
+            <artifactId>jmp-cloud-bank-impl</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>

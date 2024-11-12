@@ -16,6 +16,7 @@
     <module>jmp-cloud-service-impl</module>
     <module>jmp-dto</module>
     <module>jmp-app</module>
+        <module>jmp-app</module>
   </modules>
 
   <properties>
